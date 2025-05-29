@@ -1,0 +1,68 @@
+---
+// Form sections for different QR code types
+---
+
+<!-- Text/URL Form -->
+<div class="form-section" id="textForm">
+	<div class="input-group">
+		<label for="qrText">Enter text or URL:</label>
+		<textarea id="qrText" placeholder="https://example.com or any text..."
+		></textarea>
+	</div>
+</div>
+
+<!-- WiFi Form -->
+<div class="form-section" id="wifiForm" style="display: none;">
+	<div class="input-group">
+		<label for="wifiSSID">Network Name (SSID):</label>
+		<input type="text" id="wifiSSID" placeholder="MyWiFiNetwork" />
+	</div>
+	<div class="input-row">
+		<div class="input-group">
+			<label for="wifiSecurity">Security:</label>
+			<select id="wifiSecurity">
+				<option value="WPA">WPA/WPA2</option>
+				<option value="WEP">WEP</option>
+				<option value="nopass">None</option>
+			</select>
+		</div>
+		<div class="input-group">
+			<label for="wifiPassword">Password:</label>
+			<input type="password" id="wifiPassword" placeholder="••••••••" />
+		</div>
+	</div>
+	<div class="input-group">
+		<label>
+			<input type="checkbox" id="wifiHidden" /> Hidden Network
+		</label>
+	</div>
+</div>
+
+<!-- Email Form -->
+<div class="form-section" id="emailForm" style="display: none;">
+	<div class="input-group">
+		<label for="emailTo">Email Address:</label>
+		<input type="email" id="emailTo" placeholder="someone@example.com" />
+	</div>
+	<div class="input-group">
+		<label for="emailSubject">Subject:</label>
+		<input type="text" id="emailSubject" placeholder="Email subject" />
+	</div>
+	<div class="input-group">
+		<label for="emailBody">Message:</label>
+		<textarea id="emailBody" placeholder="Your message here..."></textarea>
+	</div>
+</div>
+
+<!-- Phone Form -->
+<div class="form-section" id="phoneForm" style="display: none;">
+	<div class="input-group">
+		<label for="phoneNumber">Phone Number:</label>
+		<input type="tel" id="phoneNumber" placeholder="+1234567890" />
+	</div>
+	<div class="input-group">
+		<label for="phoneMessage">SMS Message (optional):</label>
+		<textarea id="phoneMessage" placeholder="Pre-filled SMS message..."
+		></textarea>
+	</div>
+</div>

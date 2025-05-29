@@ -1,0 +1,32 @@
+---
+import { Icon } from 'astro-icon/components';
+---
+
+<div class="type-selector">
+	<div class="type-tabs">
+		<button class="type-tab active" data-type="text">
+			<span class="tab-icon">
+				<Icon name="lucide:file-text" class="icon" />
+			</span>
+			<span>Text</span>
+		</button>
+		<button class="type-tab" data-type="wifi">
+			<span class="tab-icon">
+				<Icon name="lucide:wifi" class="icon" />
+			</span>
+			<span>WiFi</span>
+		</button>
+		<button class="type-tab" data-type="email">
+			<span class="tab-icon">
+				<Icon name="lucide:mail" class="icon" />
+			</span>
+			<span>Email</span>
+		</button>
+		<button class="type-tab" data-type="phone">
+			<span class="tab-icon">
+				<Icon name="lucide:phone" class="icon" />
+			</span>
+			<span>Phone</span>
+		</button>
+	</div>
+</div>

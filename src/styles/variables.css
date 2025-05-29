@@ -1,0 +1,36 @@
+/* CSS Custom Properties */
+:root {
+  --bg-primary: #f8f9fa;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f5f5f0;
+  --text-primary: #2d3748;
+  --text-secondary: #4a5568;
+  --text-light: #718096;
+  --accent: #4a5568;
+  --accent-hover: #2d3748;
+  --border: #e2e8f0;
+  --border-light: #edf2f7;
+  --success: #48bb78;
+  --success-hover: #38a169;
+  --error: #f56565;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2a2a2a;
+  --bg-tertiary: #343434;
+  --text-primary: #f5f5dc;
+  --text-secondary: #e6e6d4;
+  --text-light: #d4d4c4;
+  --accent: #6b7280;
+  --accent-hover: #9ca3af;
+  --border: #404040;
+  --border-light: #505050;
+  --success: #4ade80;
+  --success-hover: #22c55e;
+  --error: #ef4444;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+}
